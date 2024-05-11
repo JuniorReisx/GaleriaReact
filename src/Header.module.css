@@ -1,0 +1,7 @@
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #008080;
+  color: #f0f0f0;
+}
