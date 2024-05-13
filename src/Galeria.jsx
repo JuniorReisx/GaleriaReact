@@ -36,7 +36,7 @@ export function Galeria() {
             closeModal.onclick = null;
             modalBackdrop.onclick = null;
         };
-    }, []); // Empty dependency array ensures useEffect runs only once
+    }, []);
 
     const imageUrls = [
         "https://source.unsplash.com/random?a=1",
@@ -60,7 +60,6 @@ export function Galeria() {
         "https://source.unsplash.com/random?a=19",
         "https://source.unsplash.com/random?a=20",
 
-        // Add more image URLs here
     ];
 
     return (
